@@ -4,6 +4,10 @@ public class Run {
 	
 	public static void show(Shape s)
 	{
+		
+		System.out.println("This Run Class Main method");
+		System.out.println("This Run Class Main method");
+		
 		if(s instanceof Circle)
 		{
 			Circle c = (Circle) s;
