@@ -19,7 +19,7 @@ public class Run {
 		r=c1.pow(4,4);
 		System.out.println(r);
 		
-
+		
 	}
 
 }

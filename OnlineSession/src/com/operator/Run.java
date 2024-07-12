@@ -4,6 +4,12 @@ public class Run {
 
 	public static void main(String[] args) {
 		
+		 LocalDate date = LocalDate.now();
+	        LocalDate nextWeek = date.plusWeeks(1);
+	        
+	        System.out.println(nextWeek.getDayOfMonth());
+		
+		
 		int mark=50;
 		
 		if(mark>=35)
